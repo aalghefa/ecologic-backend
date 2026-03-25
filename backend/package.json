@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "init-db": "node src/initDb.js"
+    "init-db": "node src/initDb.js",
+    "migrate": "node src/migrateSprint2.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
